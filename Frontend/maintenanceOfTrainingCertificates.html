@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="style.css">
+   <style>
+    table, th, td {
+      border:1px solid black;
+    }
+    </style>
+   <body>
+      <div class="trainingCertificate">
+         <form id="trainingCertificateForm">
+            <label for="studentName">Name des/der Auszubildenen:</label>
+            <input type="text" id="studentName" value="Adrian Zubi" readonly>
+            <div class="flexbox">
+                <label for="trainingYear">Ausbildungsjahr:</label>
+                <input type="text" id="trainingYear" value="3">
+                <label for="department">Name des/der Auszubildenen:</label>
+                <input type="text" id="department" value="IT">
+            </div>
+            <div class="flexbox">
+                <label for="trainingWeekStart">Ausbildungswoche vom:</label>
+                <input type="date" id="trainingWeekStart" value="2023-01-12">
+                <label for="trainingWeekEnd">bis:</label>
+                <input type="date" id="trainingWeekEnd" value="2023-01-18">
+            </div>
+            <table style="width: 100%;">
+                <colgroup>
+                  <col span="1" style="background-color: #D6EEEE">
+                </colgroup>
+                <tr>
+                <th></th>
+                <th>Ausgeführte Arbeiten, Unterricht usw.</th>
+                <th>Einzelstunden</th>
+                <th>Gesamtstunden</th>
+                <th>Abteilung</th>
+                </tr>
+                <tr>
+                <td style="writing-mode: vertical-rl;">Montag</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                </tr>
+                <tr>
+                <td style="writing-mode: vertical-rl;">Dienstag</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                </tr>
+                <tr>
+                <td style="writing-mode: vertical-rl;">Mittwoch</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                </tr>
+                <tr>
+                <td style="writing-mode: vertical-rl;">Donnerstag</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                </tr>
+                <tr>
+                <td style="writing-mode: vertical-rl;">Freitag</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                </tr>
+                <tr>
+                <td style="writing-mode: vertical-rl;">Samstag</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                </tr>
+                </table>
+            <div class="flexbox">
+                <button type="submit" class="btn">Senden und Abschicken</button>
+                <button type="submit" class="btn">Speichern</button>
+                <button type="submit" class="btn">Abbrechen</button>
+            </div>
+         </form>
+      </div>
+   </body>
+</html>

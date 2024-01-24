@@ -120,3 +120,8 @@ input::placeholder {
 	background: var(--color_accent);
 	border-width: 0px;
 }
+
+/* flexbox */
+.flexbox {
+	display: flex;
+}
