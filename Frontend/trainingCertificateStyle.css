@@ -15,3 +15,7 @@
 .trainingCertificateTable tr td textarea {
 
 }
+
+.tableWeekDay {
+	writing-mode: vertical-rl;
+}
