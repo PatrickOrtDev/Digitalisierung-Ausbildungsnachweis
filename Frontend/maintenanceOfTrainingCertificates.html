@@ -4,11 +4,6 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="mainStyle.css">
    <link rel="stylesheet" href="trainingCertificateStyle.css">
-   <style>
-    table, th, td {
-      border:1px solid black;
-    }
-    </style>
    <body>
       <div class="trainingCertificate-wrapper">
          <form id="trainingCertificateForm" class="trainingCertificate-form">
@@ -30,20 +25,20 @@
                 <colgroup>
                   <col span="1" style="background-color: #D6EEEE">
                 </colgroup>
-                <tr>
-                  <th></th>
-                  <th>Ausgeführte Arbeiten, Unterricht usw.</th>
-                  <th>Einzelstunden</th>
-                  <th>Gesamtstunden</th>
-                  <th>Abteilung</th>
+                <tr class="tableHeader">
+                  <th class="tableHeaderCell"></th>
+                  <th class="tableHeaderCell">Ausgeführte Arbeiten, Unterricht usw.</th>
+                  <th class="tableHeaderCell">Einzelstunden</th>
+                  <th class="tableHeaderCell">Gesamtstunden</th>
+                  <th class="tableHeaderCell">Abteilung</th>
                 </tr>
-                <tr>
+                <tr class="tableContent">
                   <td class="tableWeekDay">Montag</td>
                   <td>
-                    <textarea type="text" placeholder="Hier ist deine Textbox"></textarea>
+                    <textarea class="trainingActivities" type="text" placeholder="Hier ist deine Textbox"></textarea>
                   </td>
                   <td>
-                    <textarea type="text" placeholder="Gesamt Zahlen"></textarea>
+                    <textarea class="trainingActivitiesHours" type="text" placeholder="Gesamt Zahlen"></textarea>
                   </td>
                   <td>
                     <input type="number">
@@ -52,13 +47,13 @@
                     <input type="text">
                   </td>
                 </tr>
-                <tr>
+                <tr class="tableContent">
                 <td class="tableWeekDay">Dienstag</td>
                 <td>
-                  <textarea type="text" placeholder="Hier ist deine Textbox"></textarea>
+                  <textarea class="trainingActivities" type="text" placeholder="Hier ist deine Textbox"></textarea>
                 </td>
                 <td>
-                  <textarea type="text" placeholder="Gesamt Zahlen"></textarea>
+                  <textarea class="trainingActivitiesHours" type="text" placeholder="Gesamt Zahlen"></textarea>
                 </td>
                 <td>
                   <input type="number">
@@ -67,13 +62,13 @@
                   <input type="text">
                 </td>
                 </tr>
-                <tr>
+                <tr class="tableContent">
                 <td class="tableWeekDay">Mittwoch</td>
                 <td>
-                  <textarea type="text" placeholder="Hier ist deine Textbox"></textarea>
+                  <textarea class="trainingActivities" type="text" placeholder="Hier ist deine Textbox"></textarea>
                 </td>
                 <td>
-                  <textarea type="text" placeholder="Gesamt Zahlen"></textarea>
+                  <textarea class="trainingActivitiesHours" type="text" placeholder="Gesamt Zahlen"></textarea>
                 </td>
                 <td>
                   <input type="number">
@@ -82,13 +77,13 @@
                   <input type="text">
                 </td>
                 </tr>
-                <tr>
+                <tr class="tableContent">
                 <td class="tableWeekDay">Donnerstag</td>
                 <td>
-                  <textarea type="text" placeholder="Hier ist deine Textbox"></textarea>
+                  <textarea class="trainingActivities" type="text" placeholder="Hier ist deine Textbox"></textarea>
                 </td>
                 <td>
-                  <textarea type="text" placeholder="Gesamt Zahlen"></textarea>
+                  <textarea class="trainingActivitiesHours" type="text" placeholder="Gesamt Zahlen"></textarea>
                 </td>
                 <td>
                   <input type="number">
@@ -97,13 +92,13 @@
                   <input type="text">
                 </td>
                 </tr>
-                <tr>
+                <tr class="tableContent">
                 <td class="tableWeekDay">Freitag</td>
                 <td>
-                  <textarea type="text" placeholder="Hier ist deine Textbox"></textarea>
+                  <textarea class="trainingActivities" type="text" placeholder="Hier ist deine Textbox"></textarea>
                 </td>
                 <td>
-                  <textarea type="text" placeholder="Gesamt Zahlen"></textarea>
+                  <textarea class="trainingActivitiesHours" type="text" placeholder="Gesamt Zahlen"></textarea>
                 </td>
                 <td>
                   <input type="number">
@@ -112,13 +107,13 @@
                   <input type="text">
                 </td>
                 </tr>
-                <tr>
+                <tr class="tableContent">
                 <td class="tableWeekDay">Samstag</td>
                 <td>
-                  <textarea type="text" placeholder="Hier ist deine Textbox"></textarea>
+                  <textarea class="trainingActivities" type="text" placeholder="Hier ist deine Textbox"></textarea>
                 </td>
                 <td>
-                  <textarea type="text" placeholder="Gesamt Zahlen"></textarea>
+                  <textarea class="trainingActivitiesHours" type="text" placeholder="Gesamt Zahlen"></textarea>
                 </td>
                 <td>
                   <input type="number">
