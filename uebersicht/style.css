@@ -130,47 +130,108 @@ input::placeholder {
 	border-radius: 9px;
 	border-color: #242323;
 	border-width: 1px;
-	padding-left: 5%;
-	padding-right: 5%;
-	padding-bottom: 3%;
-	padding-top: 3%;
 	width: 100%;
 	height: 100%;
 	align-items: center;
-	display: flex;
+	display:inline-block;
 	margin: 3px  10% 0 0;
-	justify-content: center;}
+	justify-content: space-evenly;
+	box-shadow: 10px 10px 10px aqua,
+	inset #6f6e6e 0  0 8px 4px;
+	padding: 10px 0 0 ;
+}
 
-.h1{
-	align-items: center;
-	display: flex;
-	justify-content: center;
+h2{
+	color: #242323;
+    font-size: 30px;
+    font-weight: 600;
+	margin: 10px 38%;
+	text-align: center;
+	white-space: nowrap;
+	white-space-treatment: line-through;
+	background: #8c8b8b;
+	width: 100%
+	height: 100px;
 }
 
 .h1\+bg{
-	margin-bottom: 80%;
+	/*margin-bottom: 80%;*/
 	width: 100%;
 	align-items: center;
 	display: inline-block;
 	justify-content: center;
+	box-shadow: 10px 10px 8px aqua;
+
 
 }
+
 Table th{
 	background: #8c8b8b;
     border-style: solid;
     border-radius: 9px;
     border-color: #242323;
     border-width: 1px;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 3%;
-    padding-top: 3%;
     width: 90%;
 	height: 100%;
 	padding: 10px 10px 10px 10px;
+	/*box-shadow: 4px 4px 4px aqua;*/
+	box-shadow: rgba(0, 0, 0, 0.16) 0 1px 4px, rgb(51, 51, 51) 0px 0px 0px 1.5px,
+	inset #6f6e6e 0  0 8px 4px;
+}
+
+Table  td {
+	background: #8c8b8b70;
+    border-style: solid;
+    border-color: #242323;
+    border-width: 1px;
+    width: 90%;
+	padding: 10px 10px 10px 10px;
+	border-radius: 4px;
+	justify-content: center;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 1px,
+	inset #6f6e6e 0  0 8px 4px;
+	text-align: center;
+	font-size: 20px;
 }
 
 .overview-table_header {
 	width: 100%;
-	margin: 0 0 10px 10px;
+	margin: 0 1% 0 1%;
+	margin-bottom: 98%;
+}
+Table td img{
+	width: 60px;
+    height: 60px;
+}
+
+td#name {
+	text-align: center;
+}
+
+.buttons-config-div{
+	display: flex;
+	justify-content: center;
+	margin: 8% auto  1em;
+}
+
+button {
+	border-radius: 9px;
+	width: 200%;
+	height: 220%;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 1px,
+	inset  white 0  0 8px 500px;
+	text-align: center;
+	font-size: 20px;
+	padding: 0.5rem 0;
+	z-index: 777;
+	position: relative;
+	margin: 5px 1% 0 5%;
+	display: block;
+	justify-content: center;
+}
+
+.search{
+	border: #242323 1px solid;
+	width: 10%;
+	height: 6%
 }

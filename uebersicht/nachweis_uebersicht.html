@@ -11,18 +11,31 @@
 <div class="overview-table_header">
         <div class="h1+bg">
             <div class="tableBackground">
-                <h1>Übersicht Ausbildungsnachweise</h1>
+                <div class="buttons-config-div">
+                    <input type="search" name="search_field" id="search">
+                    <button id= "search_button" class="search_field"></button>
+                    <button id= "Button-a" class="Button-a">Button</button>
+                    <button id= "Button-b" class="Button-a">Button2</button>
+                    <button id= "Button-c" class="Button-a">Button3</button>
+                </div>
             </div>
-                    <div class="Table">
+                    <div class="Table_header">
                         <table>
-                            <thead>
                                 <tr>
-                                    <th>Name des Auszubildenden</th>
-                                    <th>Name des Ausbilders</th>
-                                    <th>Datum der Abgabe</th>
-                                    <th>Status</th>
+                                    <th scope="col">Name des Auszubildenden</th>
+                                    <th scope="col">Name des Ausbilders</th>
+                                    <th scope="col">Datum der Abgabe</th>
+                                    <th scope="col">Status</th>
                                 </tr>
-                            </thead>
+                            <tr class="table-row-content">
+                                <td  id="name">Ben Louis Montag</td>
+                                <td  id="ausbilder">Ausbilder</td>
+                                <td id="date">Datum</td>
+                                <!--img for correct-->
+                                <td id="image_correkt"><img src="files/correkt.png" alt="GG"></td>
+                                <!--*img for wrongt-->
+                                <!--<td id="image_wrong"><img src="files/wrong.png" height="25px" width="25x"></td>-->
+                            </tr>
                         </table>
                     </div>
         </div>
