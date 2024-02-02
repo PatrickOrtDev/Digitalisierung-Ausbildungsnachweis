@@ -120,3 +120,31 @@ input::placeholder {
 	background: var(--color_accent);
 	border-width: 0px;
 }
+
+
+/*Übersicht CSS*/
+
+.tableBackground{
+	background: #8c8b8b;
+	width: 50vw;
+	height: 10vh;
+	border-style: solid;
+	border-radius: 9px;
+	border-color: #242323;
+	border-width: 1px;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 3%;
+	padding-top: 3%;
+}
+
+.h1{
+
+}
+
+.h1\+bg{
+	margin-top:5%;
+	margin-bottom: 80%;
+}
+Table{
+}
