@@ -126,8 +126,6 @@ input::placeholder {
 
 .tableBackground{
 	background: #8c8b8b;
-	width: 50vw;
-	height: 10vh;
 	border-style: solid;
 	border-radius: 9px;
 	border-color: #242323;
@@ -136,15 +134,43 @@ input::placeholder {
 	padding-right: 5%;
 	padding-bottom: 3%;
 	padding-top: 3%;
-}
+	width: 100%;
+	height: 100%;
+	align-items: center;
+	display: flex;
+	margin: 3px  10% 0 0;
+	justify-content: center;}
 
 .h1{
-
+	align-items: center;
+	display: flex;
+	justify-content: center;
 }
 
 .h1\+bg{
-	margin-top:5%;
 	margin-bottom: 80%;
+	width: 100%;
+	align-items: center;
+	display: inline-block;
+	justify-content: center;
+
 }
-Table{
+Table th{
+	background: #8c8b8b;
+    border-style: solid;
+    border-radius: 9px;
+    border-color: #242323;
+    border-width: 1px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    width: 90%;
+	height: 100%;
+	padding: 10px 10px 10px 10px;
+}
+
+.overview-table_header {
+	width: 100%;
+	margin: 0 0 10px 10px;
 }
